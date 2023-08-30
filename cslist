@@ -1,0 +1,18 @@
+#version check
+git --version
+
+#assign user global
+git config --global user.name "shahalias"
+git config --global user.email "shah94.alias@gmail.com"
+git config --get [user.name | user. email]
+
+#initialize git
+git init
+
+#check status
+git status
+
+#git add file
+git add
+git add --all
+git add -A
