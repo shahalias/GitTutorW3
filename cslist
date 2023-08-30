@@ -19,3 +19,8 @@ git add -A
 
 #commit
 git commit -m "First time upload"
+
+#help
+git command -help
+git help --all
+
