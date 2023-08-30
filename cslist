@@ -23,5 +23,23 @@ git commit -m "First time upload"
 #help
 git command -help
 git help --all
+git status -help
 
-test
+#branching
+git branch hello-world-images
+git branch
+git checkout hello-world-images
+git add --all
+git add -A
+git checkout -b emergency-fix
+git status
+
+#branch merge
+git checkout master
+git merge emergency-fix
+git branch -d emergency-fix
+git checkout hello-world-images
+git add --all
+git checkout master
+git merge hello-world-images
+git commit -m "merged with hello-world-images after fixing conflicts"
