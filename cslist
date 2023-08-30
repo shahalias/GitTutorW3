@@ -43,3 +43,18 @@ git add --all
 git checkout master
 git merge hello-world-images
 git commit -m "merged with hello-world-images after fixing conflicts"
+
+
+#push
+git remote add origin https://github.com/w3schools-test/hello-world.git
+git push --set-upstream origin master
+
+#pull
+git fetch origin
+git status
+git log origin/master
+git diff origin/master
+git merge origin/master
+git status
+/
+git pull origin
